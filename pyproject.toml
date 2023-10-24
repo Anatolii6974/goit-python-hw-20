@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "quotes-to-scrape"
+version = "0.1.0"
+description = ""
+authors = ["Anatolii6974 <anatolii.perfilov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "quotes_to_scrape"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.6"
+psycopg2 = "^2.9.9"
+pymongo = "^4.5.0"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs] 
+in-project = true
+
